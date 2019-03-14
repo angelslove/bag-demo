@@ -34,3 +34,36 @@ body {
 	margin: 0 16px;
 	cursor: pointer;
 }
+
+.container {
+	display: flex;
+	padding: 0 12rem;
+	position: relative;
+}
+
+.container .left-content {
+	padding: 10rem 0;
+	line-height: 1.8rem;
+}
+.container h1 {
+	font-family: 'Sniglet', cursive;
+	font-size: 48px;
+	text-transform: capitalize;
+	line-height: 3.5rem;
+	letter-spacing: .2rem;
+}
+
+.container .btn-shop {
+	padding: 1.5rem 3rem;
+	margin-top: 4rem;
+	font-size: 16px;
+	font-weight: 700px;
+	background-color: white;
+	border: none;
+	border-radius: 4px;
+	color: #865454;
+	box-shadow: 3px 3px 10px rgba(0,0,0,.2);	
+	cursor: pointer;
+	outline: none;
+	transition: 500ms all;
+}

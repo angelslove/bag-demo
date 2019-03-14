@@ -1,0 +1,1 @@
+This is a bag shop's display

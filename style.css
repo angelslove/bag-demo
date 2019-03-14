@@ -67,3 +67,32 @@ body {
 	outline: none;
 	transition: 500ms all;
 }
+
+.container .right-content {
+	padding-left: 5rem;
+	padding-top: 0;
+	display: flex;
+}
+
+.container img {
+	width: 700px;
+	height: 700px;
+}
+
+.container .btn-next {
+	height: 2rem;
+	width: 4rem;
+	background-color: white;
+	border: none;
+	border-radius: 4px;
+	color: #865454;
+	box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+	margin-top: 550px;
+	transition: 500ms all;
+	outline: none;
+}
+
+.container .btn-next:hover, .btn-shop:hover {
+	background-color: #00C3C9;
+	color: white;
+}
